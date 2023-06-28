@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos da navegação */
+.navigation {
+  text-align: center;
+  margin: 20px;
+}
+
+.navigation a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+}
+
+
+/* Estilos da página inicial */
+.home {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1596071789566-2c5bc5071144?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFkdm9nYWRvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+  object-fit: cover;
+}
+
+/* Estilos da serviços página */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.service:hover{
+  background-color: whitesmoke;
+  scale: 1.1;
+}
+
+/* Estilos da galeria */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+/* Estilos da instruções */
+.instructions {
+  text-align: center;
+  margin: 20px;
+}
+
+.instructions h2 {
+  color: #333;
+}
+
+.instructions p {
+  display: inline-block;
+  color: black;
+  width: 500px;
+  text-align: center;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.instructions ul {
+  list-style-type: none;
+  font-weight: bold;
+  padding: 0;
+}
+
+.instructions li {
+  margin-bottom: 10px;
+}
